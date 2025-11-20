@@ -12,4 +12,7 @@ public:
     void SetDimension(const double value1);
     void SetDimension(const double value1, const double value2);
     void ShowArea() const;
+    void Init();
+    void Print();
+    void ShowLength();
 };

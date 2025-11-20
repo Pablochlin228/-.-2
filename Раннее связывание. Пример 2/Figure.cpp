@@ -19,3 +19,21 @@ void Figure::ShowArea() const
 {
     cout << "Value is undefined" << endl;
 }
+
+void Figure::Init()
+{
+    cout << "Enter the first side:" << endl;
+    cin >> m_value1;
+    cout << "Enter the second side side:" << endl;
+    cin >> m_value2;
+}
+
+void Figure::Print()
+{
+    cout << "Value is undefined" << endl;
+}
+
+void Figure::ShowLength()
+{
+    cout << "Value is undefined" << endl;
+}

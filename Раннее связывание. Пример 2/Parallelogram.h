@@ -6,4 +6,7 @@ class Parallelogram:public Figure
 public:
 	void SetDimension(double h, double value);
 	void ShowArea() const;
+	void Init();
+	void Print();
+	void ShowLength();
 };

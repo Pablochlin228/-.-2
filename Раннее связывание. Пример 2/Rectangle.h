@@ -8,4 +8,7 @@ class Rectangle :
 public:
 
     void ShowArea() const;
+    void Init();
+    void Print();
+    void ShowLength();
 };

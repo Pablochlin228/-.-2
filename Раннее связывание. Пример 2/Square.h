@@ -4,5 +4,8 @@ class Square : public Figure
 {
 public:
 	void ShowArea() const;
+	void Init();
+	void Print();
+	void ShowLength();
 };
 
