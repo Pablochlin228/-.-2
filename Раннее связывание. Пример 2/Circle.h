@@ -8,6 +8,7 @@ class Circle :
 public:
 
     void ShowArea() const;
+    void ShowPerimetr() const;
     void Init();
     void Print();
     void ShowLength();

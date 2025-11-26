@@ -20,6 +20,11 @@ void Figure::ShowArea() const
     cout << "Value is undefined" << endl;
 }
 
+void Figure::ShowPerimetr() const
+{
+    
+}
+
 void Figure::Init()
 {
     cout << "Enter the first side:" << endl;
@@ -30,7 +35,10 @@ void Figure::Init()
 
 void Figure::Print()
 {
-    cout << "Value is undefined" << endl;
+    cout << "Area:" << endl;
+    ShowArea();
+    cout << "Length:" << endl;
+    ShowLength();
 }
 
 void Figure::ShowLength()
