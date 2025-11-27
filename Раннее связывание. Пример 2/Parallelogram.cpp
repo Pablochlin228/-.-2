@@ -29,7 +29,7 @@ void Parallelogram::Print()
 	ShowLength();
 }
 
-void Parallelogram::ShowLength()
+void Parallelogram::ShowLength() const
 {
 	cout << m_value1 << endl;
 }

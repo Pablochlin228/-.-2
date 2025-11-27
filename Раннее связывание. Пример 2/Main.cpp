@@ -54,9 +54,9 @@ int main()
     }
 
     figure->ShowArea();
-   /* figure->Print();
-    figure->ShowLength();*/
-    delete figure;
+    figure->Print();
+    figure->ShowLength();
+    //delete figure;
 
     return 0;
 }

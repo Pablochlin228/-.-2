@@ -21,7 +21,7 @@ void Square::Print()
     ShowLength();
 }
 
-void Square::ShowLength()
+void Square::ShowLength() const
 {
     cout << m_value1 << endl;
 }

@@ -25,7 +25,7 @@ void Rectangle::Print()
 	ShowLength();
 }
 
-void Rectangle::ShowLength()
+void Rectangle::ShowLength() const
 {
 	cout << m_value2 << endl;
 }

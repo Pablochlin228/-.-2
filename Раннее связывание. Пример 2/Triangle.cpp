@@ -25,7 +25,7 @@ void Triangle::Print()
 	ShowLength();
 }
 
-void Triangle::ShowLength()
+void Triangle::ShowLength() const
 {
 	cout << m_value1 << endl;
 }

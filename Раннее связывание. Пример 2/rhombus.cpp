@@ -29,7 +29,7 @@ void rhombus::Print()
 	ShowLength();
 }
 
-void rhombus::ShowLength()
+void rhombus::ShowLength() const
 {
 	cout << m_value1 << endl;
 }
