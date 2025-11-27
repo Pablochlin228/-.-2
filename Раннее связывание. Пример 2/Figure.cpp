@@ -15,16 +15,6 @@ void Figure::SetDimension(const double value1, const double value2)
     m_value2 = value2;
 }
 
-void Figure::ShowArea() const
-{
-    cout << "Value is undefined" << endl;
-}
-
-void Figure::ShowPerimetr() const
-{
-    
-}
-
 void Figure::Init()
 {
     cout << "Enter the first side:" << endl;
@@ -41,7 +31,3 @@ void Figure::Print()
     ShowLength();
 }
 
-void Figure::ShowLength()
-{
-    cout << "Value is undefined" << endl;
-}
